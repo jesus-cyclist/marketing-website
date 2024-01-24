@@ -1,0 +1,43 @@
+.container {
+  width: 100%;
+  max-width: 370px;
+  position: relative;
+  display: grid;
+  border-radius: 2rem;
+  overflow: hidden;
+  margin: 0 auto;
+
+  .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 13px 162px 13px 22px;
+    border: none;
+    outline: none;
+    background: #d9d9d9;
+  }
+
+  .buttonWrapper {
+    z-index: 1;
+    justify-self: end;
+    position: relative;
+
+    .button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      span {
+        display: block;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 500px;
+  }
+}

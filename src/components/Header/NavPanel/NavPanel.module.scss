@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  display: none;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(8, auto);
+  grid-template-rows: 1fr;
+  align-items: center;
+  height: auto;
+}
+
+@media screen and (min-width: 992px) {
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(2, auto);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav {
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-template-rows: 1fr;
+  }
+}
+
+.nav__link {
+  color: #fff;
+  text-decoration: none;
+  height: auto;
+}
+
+.nav__linkActive {
+  color: #e1204c;
+}

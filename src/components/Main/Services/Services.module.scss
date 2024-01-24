@@ -1,0 +1,338 @@
+.services {
+  padding: 0 8px;
+  width: 100%;
+}
+
+@media screen and (min-width: 992px) {
+  .services {
+    max-width: 1400px;
+    padding: 0 54px;
+  }
+}
+
+.services__title {
+  text-align: center;
+  margin-bottom: 30px;
+  span {
+    color: #e1204c;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    font-family: 'Quicksand';
+    font-size: 2.2rem;
+    font-weight: 700;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services__title {
+    span {
+      color: #e1204c;
+      font-size: 1.2rem;
+      margin-bottom: 15px;
+    }
+
+    h2 {
+      font-family: 'Quicksand';
+      font-size: 2.3rem;
+      font-weight: 700;
+    }
+    margin-bottom: 110px;
+  }
+}
+
+.services__infBlock {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 15px;
+  padding: 0;
+  margin-bottom: 75px;
+
+  .block__plan,
+  .block__quality {
+    position: relative;
+    padding: 20px 34px;
+    background: linear-gradient(95deg, #323232 -1.21%, #323232 101.28%);
+    border: 1px solid #cc2b5e;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    grid-template-rows: 1fr;
+
+    .block__logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .block__icon {
+        border-radius: 50%;
+        height: 100%;
+        max-height: 5rem;
+        aspect-ratio: 1/1;
+        background: linear-gradient(107deg, #cc2b5e 10.11%, #753a88 90.74%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        svg {
+          width: 50%;
+          aspect-ratio: 1/1;
+        }
+
+        img {
+          width: 100%;
+          aspect-ratio: 1/1;
+        }
+      }
+    }
+
+    .block__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 12px;
+      padding-left: 10px;
+
+      .title {
+        display: block;
+        font-size: 0.8rem;
+        font-family: 'Quicksand';
+        font-weight: 700;
+        height: fit-content;
+      }
+
+      .text {
+        display: block;
+        font-weight: 500;
+        font-size: 0.8rem;
+        height: fit-content;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .services__infBlock {
+    padding: 0 90px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .services__infBlock {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1fr;
+    grid-gap: 0;
+    padding: 0 90px;
+    max-width: 1100px;
+    margin: 0 auto 60px auto;
+
+    .block__plan,
+    .block__quality {
+      padding: 30px 50px;
+      grid-gap: 20px;
+
+      .block__logo {
+        .block__icon {
+          min-height: 6rem;
+
+          svg {
+            width: 3.5rem;
+            height: 3.5rem;
+          }
+
+          img {
+            width: 110%;
+            height: 110%;
+            aspect-ratio: 1/1;
+          }
+        }
+      }
+
+      .block__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 12px;
+
+        .title {
+          font-size: 0.8rem;
+          font-family: 'Quicksand';
+          font-weight: 700;
+          height: fit-content;
+        }
+
+        .text {
+          font-weight: 500;
+          font-size: 0.8rem;
+          height: fit-content;
+        }
+      }
+    }
+
+    .block__plan {
+      border-radius: 10px 0 0 10px;
+    }
+
+    .block__quality {
+      border-radius: 0 10px 10px 0;
+      border-left: 1px;
+    }
+  }
+}
+
+.services__presentation {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+
+  .presentation__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 700px;
+    max-height: 700px;
+    height: auto;
+    img {
+      width: 100%;
+      aspect-ratio: 1/1;
+    }
+  }
+
+  .presentation__advantages {
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: 1fr;
+
+    .advantage {
+      display: grid;
+      grid-template-columns: auto;
+      grid-template-rows: repeat(3, auto);
+      padding: 4px;
+      max-width: 100%;
+
+      .advantage__title {
+        text-align: center;
+        font-family: 'Quicksand';
+        font-size: 0.6rem;
+        font-weight: 600;
+        margin-bottom: 4px;
+      }
+
+      .advantage__text {
+        text-align: center;
+        font-size: 0.5rem;
+        font-weight: 400;
+        color: #b7b7b7;
+        margin-bottom: 8px;
+      }
+
+      .advantage__logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+          width: 1.9rem;
+          aspect-ratio: 1/1;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .services__presentation {
+    .presentation__advantages {
+      .advantage {
+        .advantage__title {
+          font-size: 1rem;
+        }
+
+        .advantage__text {
+          font-size: 0.7rem;
+        }
+
+        .advantage__logo {
+          img {
+            width: 3.5rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .services__presentation {
+    display: grid;
+    grid-template-columns: auto 700px auto;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+
+    .presentation__advantages {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(3, auto);
+      align-items: center;
+      height: fit-content;
+
+      .advantage {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-template-areas: 'title logo' 'text logo';
+        grid-column-gap: 16px;
+        align-items: center;
+        padding: 4px;
+        max-width: 100%;
+
+        .advantage__title {
+          grid-area: title;
+          font-size: 1rem;
+          text-align: end;
+        }
+
+        .advantage__text {
+          grid-area: text;
+          font-size: 0.7rem;
+          margin-bottom: 0px;
+          text-align: end;
+        }
+
+        .advantage__logo {
+          grid-area: logo;
+
+          img {
+            width: 3.5rem;
+          }
+        }
+      }
+    }
+
+    .presentation__advantages:first-child {
+      transform: translateX(50px);
+    }
+
+    .presentation__advantages:last-child {
+      transform: translateX(-50px);
+
+      .advantage {
+        grid-template-areas: 'logo title' 'logo text';
+
+        .advantage__title {
+          text-align: start;
+        }
+
+        .advantage__text {
+          text-align: start;
+        }
+      }
+    }
+  }
+}

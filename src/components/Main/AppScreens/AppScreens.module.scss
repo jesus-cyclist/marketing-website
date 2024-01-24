@@ -1,0 +1,193 @@
+.container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    background: linear-gradient(
+      182deg,
+      rgba(41, 0, 94, 0.46) 1.64%,
+      #121212 76.78%
+    );
+  }
+}
+
+.appScreen {
+  max-width: 1400px;
+  margin: 0 auto;
+  z-index: 1;
+  position: relative;
+}
+
+@media screen and (min-width: 768px) {
+  .appScreen {
+    padding: 54px 0;
+  }
+}
+
+.appScreen__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 24px;
+  .header__intro {
+    color: #e1204c;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 35px;
+  }
+
+  .header__title {
+    font-family: 'Quicksand';
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 13px;
+  }
+
+  .header__subtitle {
+    font-family: 'Quicksand';
+    font-size: 40px;
+    font-weight: 300;
+  }
+}
+
+.main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(4, auto);
+  justify-content: center;
+  grid-gap: 25px;
+
+  .appAdvantages {
+    display: grid;
+    grid-template-columns: auto;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+
+    .appAdvantages__img {
+      width: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+
+    .appAdvantages__info {
+      background: linear-gradient(180deg, #636363 0%, #121212 100%);
+      padding: 17px 28px;
+
+      .appAdvantages__title {
+        display: block;
+        font-style: 12px;
+        font-family: 'Quicksand';
+        font-weight: 700;
+        text-align: center;
+        margin-bottom: 6px;
+      }
+      .appAdvantages__text {
+        display: block;
+        color: #b7b7b7;
+        font-size: 11px;
+        font-weight: 500;
+        text-align: center;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(4, auto);
+    padding: 0 54px;
+    justify-content: center;
+    grid-gap: 25px;
+
+    .appAdvantages {
+      display: grid;
+      grid-template-columns: auto;
+      border-radius: 20px 20px 0 0;
+      overflow: hidden;
+
+      .appAdvantages__img {
+        width: 100%;
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+
+      .appAdvantages__info {
+        background: linear-gradient(180deg, #636363 0%, #121212 100%);
+        padding: 17px 28px;
+
+        .appAdvantages__title {
+          display: block;
+          font-style: 12px;
+          font-family: 'Quicksand';
+          font-weight: 700;
+          text-align: center;
+          margin-bottom: 6px;
+        }
+        .appAdvantages__text {
+          display: block;
+          color: #b7b7b7;
+          font-size: 11px;
+          font-weight: 500;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+
+.wrapper {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: block;
+
+    .background {
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      max-width: 1800px;
+      width: 100%;
+
+      .background__right,
+      .background__left {
+        img {
+          object-fit: cover;
+        }
+      }
+
+      .background__right {
+        img {
+          height: 100%;
+          transform: translate(-25%, -50%);
+        }
+      }
+
+      .background__left {
+        img {
+          height: 80%;
+          transform: translate(70%, -20%);
+        }
+      }
+    }
+  }
+}

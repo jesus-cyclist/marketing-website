@@ -1,0 +1,16 @@
+.main {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(7, auto);
+  justify-items: center;
+  grid-gap: 100px;
+  padding-top: 9rem;
+}
+
+@media screen and (min-width: 992px) {
+  .main {
+    grid-gap: 150px;
+    padding-top: 14rem;
+  }
+}

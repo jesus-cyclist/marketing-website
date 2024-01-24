@@ -1,0 +1,156 @@
+.aboutUs {
+  display: grid;
+  width: 100%;
+  max-width: none;
+  padding: 0 8px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    'video'
+    'text'
+    'button';
+
+  .aboutUs__button {
+    grid-area: button;
+    padding: 1rem 2rem;
+    width: fit-content;
+    height: fit-content;
+    background: transparent;
+    border: 2px solid var(--Gradient-main, #cc2b5e);
+    border-radius: 2rem;
+    color: #fff;
+    cursor: pointer;
+    justify-self: center;
+  }
+
+  .aboutUs__text {
+    grid-area: text;
+    display: grid;
+    grid-gap: 22px;
+    justify-items: center;
+    padding-right: 0;
+    margin-bottom: 50px;
+
+    .text__aboutUs {
+      text-align: center;
+      color: #e1204c;
+      font-weight: 700;
+    }
+
+    .text__title {
+      h2:first-child {
+        text-align: center;
+        font-weight: 700;
+        font-size: 2.2rem;
+      }
+      h2:last-child {
+        text-align: center;
+        font-family: 'Quicksand';
+        font-weight: 300;
+        font-size: 2.2rem;
+      }
+    }
+
+    .text__description {
+      text-align: center;
+      font-size: 0.6rem;
+      font-weight: 700;
+      color: #b7b7b7;
+    }
+  }
+
+  .aboutUs__video {
+    grid-area: video;
+    position: relative;
+    margin-bottom: 12px;
+
+    img {
+      height: 100%;
+      max-height: 100%;
+      max-width: 100%;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 12px;
+    }
+
+    .aboutUs__videoButton {
+      width: 4rem;
+      height: 4rem;
+      background: var(
+        --Gradient-main,
+        linear-gradient(107deg, #cc2b5e 10.11%, #753a88 90.74%)
+      );
+      border-radius: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      svg {
+        width: 3rem;
+        height: 3rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .aboutUs {
+    padding: 0 54px;
+    max-width: 1400px;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, auto);
+    grid-template-areas:
+      'text video'
+      'button video';
+
+    .aboutUs__button {
+      justify-self: start;
+      align-self: flex-end;
+    }
+
+    .aboutUs__text {
+      grid-gap: 35px;
+      justify-items: flex-start;
+      padding-right: 70px;
+      margin-bottom: 50px;
+
+      .text__aboutUs {
+        text-align: start;
+      }
+
+      .text__title {
+        h2:first-child {
+          text-align: start;
+
+          font-size: 2.3rem;
+        }
+        h2:last-child {
+          text-align: start;
+
+          font-size: 2.3rem;
+        }
+      }
+
+      .text__description {
+        text-align: start;
+        font-size: 1rem;
+      }
+    }
+
+    .aboutUs__video {
+      .aboutUs__videoButton {
+        width: 6rem;
+        height: 6rem;
+
+        svg {
+          width: 4.5rem;
+          height: 4.5rem;
+        }
+      }
+    }
+  }
+}
