@@ -1,0 +1,111 @@
+{
+  "footer": {
+    "contactInfo": {
+      "street": "Diamond Street, India",
+      "title": "Contact Info"
+    },
+    "support": {
+      "title": "Support & Downloads",
+      "info": "Vendace surfperch carpsucker surgeonfish streamer Devario gray reef shark forehead",
+      "googleButton": "Get it on Google Play",
+      "iosButton": "Download on the App Store"
+    }
+  },
+  "header": {
+    "languageAccessPanel": {
+      "sign": "Sign In",
+      "button": "Get in touch"
+    },
+    "navPanel": {
+      "home": "Home",
+      "services": "Services",
+      "features": "Features",
+      "pricing": "Pricing",
+      "team": "Team",
+      "testimoials": "Testimoials",
+      "blog": "Blog",
+      "pages": "Pages"
+    }
+  },
+  "marketing": {
+    "title": "Social Media Marketing Is The Best Ever",
+    "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis lectus magna fringilla urna, porttitor rhoncus dolor purus non enim praesent elementum facilisis le gilla est ullamcorper eget nulla facilisi etiam dignissim diam quis enim lobortis scelerisque ferme",
+    "googleButton": "Get it on",
+    "iosButton": "Download on the"
+  },
+  "aboutUs": {
+    "intro": "ABOUT US",
+    "title": "Awesome Things",
+    "subtitle": "About Unikbrushes",
+    "info": "Carpsucker surgeonfish streamer fish boga deepwater stingray. Minnow arrowtooth eel darter Atlantic herring southern sandfish. Vimba, zebrafish yellow and black triplefin guitarfish Redfin perch",
+    "button": "More About"
+  },
+  "services": {
+    "intro": "SERVICES",
+    "title": "What We Offer",
+    "features": {
+      "planInfo": "Planning Information",
+      "planText": "Minnow arrowtooth eel darter Atlantic herring southern sandfish. Vimba",
+      "qualityInfo": "Guarantee of Quality",
+      "qualityText": "Minnow arrowtooth eel darter Atlantic herring southern sandfish. Vimba",
+      "marketTitle": "Client Market",
+      "ideasTitle": "Awesome Ideas",
+      "planTitle": "Planning Settings",
+      "text": "ewelfish angler Devario gray reef shark forehead brooder"
+    }
+  },
+  "appFeatures": {
+    "intro": "HOW IT WORKS",
+    "title": "Important Features",
+    "subtitle": "for Our App",
+    "titleText": "Spaghetti eel crocodile icefish lake trout. Blacksmelt, tripod fish grunt mackerel vendace surfperch carpsucker surgeonfish streamer fish boga",
+    "develop": "Develop",
+    "design": "Design",
+    "product": "Product",
+    "info": "Vendace surfperch cars surgeonfish streamer fish deepwater stingray. Minnow arrowtooth"
+  },
+  "appScreens": {
+    "intro": "SCREENS OF APP",
+    "title": "Important Screens",
+    "subtitle": "for Our App",
+    "info": "Page not found please try again.",
+    "notFound": "Not Found",
+    "designData": "Design Data",
+    "fastDownloads": "Fast Downloads",
+    "largeStorage": "Large Storage"
+  },
+  "infoBlock": {
+    "intro": "INFOBLOCK",
+    "title": "Kick start your stratergic",
+    "subtitle": "Digital Marketing Campaing",
+    "googleButton": "Get it on",
+    "iosButton": "Download on the"
+  },
+  "pricing": {
+    "intro": "PRICING",
+    "title": "Pricing Plans",
+    "subtitle": "for Our App",
+    "info": "Endace surfperch cars surgeonfish streamer",
+    "free": "Free",
+    "standard": "Standard",
+    "premium": "Premium",
+    "text": "Increase Traffic 100% Web site analysis content orientation",
+    "button": "Get started"
+  },
+  "news": {
+    "intro": "BLOG AND NEWS",
+    "title": "UnikBrushes",
+    "subtitle": "Blogs",
+    "info": "Carpsucker surgeonfish streamer fish boga deepwater stingray. Minnow arrowtooth",
+    "button": "More About",
+    "postIntro": "MEETING",
+    "postTitle": "SEO company in India",
+    "postText": "Arrowtooth eel wrasse conger eel prowfish sabertooth queen trigg erfish finback cat"
+  },
+  "subscribe": {
+    "intro": "SUBSCRIBE",
+    "title": "Get Subscribed Now",
+    "info": "Carpsucker surgeonfish streamer fish boga scade deepwater stingray.",
+    "placeholder": "Email adress"
+  }
+}
