@@ -17,6 +17,9 @@ i18n
     interpolation: {
       escapeValue: false,
     },
+    backend: {
+      loadPath: '/marketing-website/locales/{{lng}}/{{ns}}.json',
+    },
   })
 
 export default i18n
