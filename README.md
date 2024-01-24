@@ -1,5 +1,4 @@
 
-
 ### [Visit marketing-website](https://jesyscyclist.github.io/marketing-website/) 🌐
 <h1>About the Project</h1>
 <p><strong>An adaptive modern single-page website. The site supports English and Russian</strong></p>
@@ -21,5 +20,3 @@ ___
 3. ```npm build``` - create build
 
 ___
-
-### Go to 🔍 [Hoobank website](https://hoobank-voxfoot.vercel.app/)
