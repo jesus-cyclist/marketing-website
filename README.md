@@ -6,10 +6,11 @@
 
 ### Tech Stack:
 
-<img height="50" src="https://user-images.githubusercontent.com/25181517/117447155-6a868a00-af3d-11eb-9cfe-245df15c9f3f.png" alt="JavaScript" title="JavaScript" />
-<img height="50" src="https://user-images.githubusercontent.com/25181517/183897015-94a058a6-b86e-4e42-a37f-bf92061753e5.png" alt="React" title="React" />
-<img height="50" src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="sass" title="Sass" />
-<img height="50" src="https://github.com/i18next/i18next.com/blob/master/_resources/i18next_logo/alt/logo.jpg" alt="i18next" title="i18Next" />
+[![React](https://img.shields.io/badge/React-17.0.2-blue?style=flat-square&logo=react)](https://reactjs.org/)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow?style=flat-square&logo=javascript)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![SCSS](https://img.shields.io/badge/SCSS-Styles-orange?style=flat-square&logo=sass)](https://sass-lang.com/)
+[![i18next](https://img.shields.io/badge/i18next-Internationalization-red?style=flat-square)](https://www.i18next.com/)
+
 
 
 ___
