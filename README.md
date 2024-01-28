@@ -1,5 +1,5 @@
 
-### [Visit marketing-website](https://jesyscyclist.github.io/marketing-website/) 🌐
+### [Visit marketing-website](https://jesus-cyclist.github.io/marketing-website/) 🌐
 <h1>About the Project</h1>
 <p><strong>An adaptive modern single-page website. The site supports English and Russian</strong></p>
 <p><strong>The website is designed in Figma.
